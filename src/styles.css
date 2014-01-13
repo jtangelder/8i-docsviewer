@@ -23,6 +23,12 @@
 
 .docs-viewer dt { font-weight: bold }
 
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media screen and (min-width:400px) {
     .docs-viewer dt { float: left; width: 100px; }
     .docs-viewer dd { margin-left: 110px; }

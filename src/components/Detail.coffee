@@ -15,7 +15,7 @@ module.exports = React.createClass
     renderLink = (label, link, prefix='')->
       if link
         [ `<dt>{label}</dt>`,
-          `<dd><a href={prefix+link} target={"_blank"}>{link}</a></dd>`]
+          `<dd class="truncate"><a href={prefix+link} target={"_blank"}>{link}</a></dd>`]
     
     if this.state.item
       `<div>
