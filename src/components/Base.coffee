@@ -14,25 +14,28 @@ module.exports = React.createClass
     Tabletop.init
       key: '0AnYBacpKKuobdGU1cGRTYmdDdjJoSHBfc0poVzRuT1E'
       simpleSheet: true
-      callback: (data, tabletop)=>
-        if data          
-          # normalize data
-          map_columns =
-            andyouremailaddress: "email"
-            anyotherremarks: "remarks"
-            approvedforthisyear: "year"
-            howdidyoufindoutabouttheproject: "referer"
-            inwhatcitywouldyouliketoorganize8i: "city"
-            inwhatcountryisthat: "country"
-            whatsyourname: "name"
+      callback: @handleTabletop
+      
+  handleTabletop: (data, tabletop)->
+    if not data then return
+      
+    # normalize data
+    map_columns =
+      andyouremailaddress: "email"
+      anyotherremarks: "remarks"
+      approvedforthisyear: "year"
+      howdidyoufindoutabouttheproject: "referer"
+      inwhatcitywouldyouliketoorganize8i: "city"
+      inwhatcountryisthat: "country"
+      whatsyourname: "name"
 
-          _.map data, (row)->            
-            for own key, val of row
-              if key of map_columns
-                row[map_columns[key]] = val
-                delete row[key]
-                
-          @setState(items: data)
+    _.map data, (row)->            
+      for own key, val of row
+        if key of map_columns
+          row[map_columns[key]] = val
+          delete row[key]
+          
+    @setState(items: data)
 
   render: ->  
     if @state?.items
