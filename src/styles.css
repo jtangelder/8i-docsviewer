@@ -1,0 +1,34 @@
+.docs-viewer {
+    border: solid 1px #83b3be;
+    padding: 1em;
+}
+
+.docs-viewer ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: none;
+}
+
+.docs-viewer ul li.selected { text-decoration: underline; }
+
+.docs-viewer h3  {
+    margin: 0 0 1em 0;
+}
+
+.docs-viewer dl,
+.docs-viewer dt,
+.docs-viewer dd {
+    margin: 0;
+}
+
+.docs-viewer dt { font-weight: bold }
+
+@media screen and (min-width:400px) {
+    .docs-viewer dt { float: left; width: 100px; }
+    .docs-viewer dd { margin-left: 110px; }
+}
+
+
+.docs-viewer .city-list {
+    margin-right: 1em;
+}

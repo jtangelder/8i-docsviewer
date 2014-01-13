@@ -1,0 +1,22 @@
+{
+  "name": "docsviewer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "J. Tangelder <j.tangelder@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "react": "~0.8.0",
+    "style-loader": "~0.6.0",
+    "url-loader": "~0.5.2",
+    "coffee-loader": "~0.6.0",
+    "css-loader": "~0.6.6",
+    "jsx-loader": "git://github.com/jtangelder/jsx-loader.git",
+    "file-loader": "~0.5.0",
+    "enhanced-resolve": "~0.6.0",
+    "underscore": "~1.5.2"
+  }
+}
