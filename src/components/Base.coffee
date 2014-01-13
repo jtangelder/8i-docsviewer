@@ -19,7 +19,6 @@ module.exports = React.createClass
   handleTabletop: (data, tabletop)->
     if not data then return
       
-    # normalize data
     map_columns =
       andyouremailaddress: "email"
       anyotherremarks: "remarks"
