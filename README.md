@@ -1,7 +1,7 @@
 8i-docsviewer
 =============
 
-This app is build with [React.js](http://facebook.github.io/react/) and [Tabletop](https://github.com/jsoma/tabletop). 
+This app is build with [React.js](http://facebook.github.io/react/) and [Tabletop](https://github.com/jsoma/tabletop). The package is generated with [Webpack](http://webpack.github.io/). 
 
 ## Install
 - install node, www.nodejs.org
