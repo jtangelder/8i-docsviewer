@@ -2,10 +2,6 @@
   "name": "docsviewer",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "J. Tangelder <j.tangelder@gmail.com>",
   "license": "BSD",
   "devDependencies": {
