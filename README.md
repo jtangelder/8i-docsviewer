@@ -11,6 +11,6 @@ This app is build with [React.js](http://facebook.github.io/react/) and [Tableto
 - `npm install`
 - `make server` to run a simple devserver with Python on [http://localhost:8000](http://localhost:8000)
 
-Open a new tab in your terminal, and run one of these commands.
+Open a new tab in your terminal, and run one of these commands:
 - `make watch` to compile a development pacakge and watch for changes.
-- `make watch-p` same as above, but generates a minified production package.
+- `make watch-p` same as above, but generates a optimized production package.
