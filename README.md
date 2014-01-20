@@ -5,7 +5,7 @@
 - install node, www.nodejs.org
 - `sudo npm install -g coffee-script webpack`
 - `git clone git@github.com:jtangelder/8i-docsviewer.git`
-- `cd 81-docsviewer`
+- `cd 8i-docsviewer`
 - `npm install`
 - `make server` to run a simple devserver (with Python).
 
