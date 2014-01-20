@@ -3,7 +3,7 @@
 
 
 - install node, www.nodejs.org
-- `npm install -g coffee-script webpack`
+- `sudo npm install -g coffee-script webpack`
 - `git clone git@github.com:jtangelder/8i-docsviewer.git`
 - `cd 81-docsviewer`
 - `npm install`
